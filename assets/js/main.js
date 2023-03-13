@@ -31,3 +31,19 @@ function linkAction(){
     navMenu.classList.remove('show-menu')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
+
+
+// Home Section Swiper Slider
+let homeSwiper = new Swiper(".home-swiper", {
+    spaceBetween: 30,
+    loop: 'true',
+})
+
+
+// New Arrivals Section Swiper Slider
+let newSwiper = new Swiper(".new-swiper", {
+    centeredSlides: true,
+    slidesPerView: "auto",
+    loop: 'true',
+    spaceBetween: 16,
+});
