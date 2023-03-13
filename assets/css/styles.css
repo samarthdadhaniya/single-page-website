@@ -276,3 +276,40 @@ button{
     width: 200px;
     justify-self: center;
   }
+
+  /* Trick or Treat Section Styling */
+
+.trick_container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding-top: 1rem;
+  }
+  
+  .trick_content{
+    position: relative;
+    background: var(--container-color);
+    border-radius: 1rem;
+    padding: 1.5rem 0 1rem 0;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .trick_img{
+    width: 90px;
+    transition: .3s;
+  }
+  
+  .trick_subtitle,
+  .trick_price{
+    display: block;
+  }
+  
+  .trick_subtitle{
+    font-size: .75rem;
+    margin-bottom: .5rem;
+  }
+  
+  
+  .trick_content:hover .trick_img{
+    transform: translateY(-.5rem);
+  }
