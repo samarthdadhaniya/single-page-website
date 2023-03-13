@@ -313,3 +313,79 @@ button{
   .trick_content:hover .trick_img{
     transform: translateY(-.5rem);
   }
+
+  /* Discount Section Styling */
+
+.discount_container{
+    background: var(--container-color);
+    border-radius: 1rem;
+    padding: 2.5rem 0 1.5rem;
+    row-gap: .75rem;
+  }
+  
+  .discount_data{
+    text-align: center;
+  }
+  
+  .discount_title{
+    font-size: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .discount_img{
+    width: 200px;
+    justify-self: center;
+  }
+
+  /* New Arrivals Section Styling */
+
+.new_container{
+    padding-top: 1rem;
+  }
+  
+  .new_img{
+    width: 120px;
+    margin-bottom: .5rem;
+    transition: .3s;
+  }
+  
+  .new_content{
+    position: relative;
+    background: var(--container-color);
+    width: 242px;
+    padding: 2rem 0 1.5rem 0;
+    border-radius: .75rem;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .new_title{
+    font-size: .938rem;
+    font-weight: 500;
+  }
+  
+  .new_subtitle{
+    display: block;
+    font-size: .813rem;
+    margin-bottom: .5rem;
+  }
+  
+  .new_prices{
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+  }
+  
+  .new_price{
+    font-weight: 500;
+    color: #F4511F;
+    font-size: 1.5rem;
+  }
+  
+  .new_icon{
+    font-size: 1.25rem;
+  }
+  
+  .new_content:hover .new_img{
+    transform: translateY(-.5rem);
+  }
