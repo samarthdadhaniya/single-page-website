@@ -66,3 +66,26 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+
+/** 
+* @description  its adds a "scroll to top" button that appears when the user scrolls 
+*               down the web page. When the user has scrolled down at least 100 pixels, 
+*               the button becomes visible. When the button is clicked, the page 
+*               scrolls smoothly to the top(home section).
+*
+* @params  none
+*/
+function scrollUp(){
+    const scrollUp = document.getElementById('scroll-up');
+    
+    if(scrollY >= 100) 
+    {
+        scrollUp.classList.add('show-scroll'); 
+    }
+    else 
+    {
+        scrollUp.classList.remove('show-scroll');
+    }
+}
+window.addEventListener('scroll', scrollUp);
