@@ -1,17 +1,17 @@
 // Show Menu
 const navMenu = document.getElementById('nav-menu'),
-      navToggle = document.getElementById('nav-toggle'),
-      navClose = document.getElementById('nav-close')
+    navToggle = document.getElementById('nav-toggle'),
+    navClose = document.getElementById('nav-close')
 
 // menubar show when clicked
-if(navToggle){
-    navToggle.addEventListener('click', () =>{
+if (navToggle) {
+    navToggle.addEventListener('click', () => {
         navMenu.classList.add('show-menu')
     })
 }
 // menubar hide when clicked
-if(navClose){
-    navClose.addEventListener('click', () =>{
+if (navClose) {
+    navClose.addEventListener('click', () => {
         navMenu.classList.remove('show-menu')
     })
 }
@@ -26,7 +26,7 @@ const navLink = document.querySelectorAll('.nav_link');
 *               hide a navigation menu or other element.
 * @params  none
 */
-function linkAction(){
+function linkAction() {
     const navMenu = document.getElementById('nav-menu')
     navMenu.classList.remove('show-menu')
 }
@@ -76,15 +76,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 *
 * @params  none
 */
-function scrollUp(){
+function scrollUp() {
     const scrollUp = document.getElementById('scroll-up');
-    
-    if(scrollY >= 100) 
-    {
-        scrollUp.classList.add('show-scroll'); 
+
+    if (scrollY >= 100) {
+        scrollUp.classList.add('show-scroll');
     }
-    else 
-    {
+    else {
         scrollUp.classList.remove('show-scroll');
     }
 }
