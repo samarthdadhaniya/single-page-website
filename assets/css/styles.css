@@ -257,3 +257,22 @@ button{
   .category_data:hover .category_img{
     transform: translateY(-.5rem);
   }
+
+  /* About Section Styling */
+
+.about_container{
+    row-gap: 2rem;
+  }
+  
+  .about_data{
+    text-align: center;
+  }
+  
+  .about_description{
+    margin-bottom: 2rem;
+  }
+  
+  .about_img{
+    width: 200px;
+    justify-self: center;
+  }
