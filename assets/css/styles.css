@@ -232,3 +232,28 @@ button{
   .button_icon{
     font-size: 1.25rem;
   }
+
+  /* Category Section Styling  */
+
+.category_container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem 2rem;
+  }
+  
+  .category_data{
+    text-align: center;
+  }
+  
+  .category_img{
+    width: 120px;
+    margin-bottom: .75rem;
+    transition: .3s;
+  }
+  
+  .category_title{
+    margin-bottom: .25rem;
+  }
+  
+  .category_data:hover .category_img{
+    transform: translateY(-.5rem);
+  }
