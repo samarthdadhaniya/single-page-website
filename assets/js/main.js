@@ -47,3 +47,22 @@ let newSwiper = new Swiper(".new-swiper", {
     loop: 'true',
     spaceBetween: 16,
 });
+
+
+/** 
+* @description  its adds smooth scrolling behavior to all anchor links on the page 
+*               that link to a specific section of the website. When one of these links 
+*               is clicked, the script scrolls smoothly to the target section of the 
+*               page rather than jumping directly.
+*
+* @params  anchor(fetch clicked anchor tag)
+*/
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
