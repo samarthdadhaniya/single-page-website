@@ -9,11 +9,11 @@
 - Compatible with all mobile devices.
 - A Beautiful and simple user interface.
 
-<br><br>
+<br>
 
-## Screenshots
+## :camera_flash: Screenshots
 
-![This is an Calculator](https://github.com/samarthdadhaniya/Scientific-Calculator/blob/main/Scientific-Calculator.png)
+![This is an Calculator](./assets/img/Final-Design.png)
 
 <br><br>
 
