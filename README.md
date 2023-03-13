@@ -15,7 +15,7 @@
 
 ![This is an Calculator](./assets/img/Final-Design.png)
 
-<br><br>
+<br>
 
 ## Tech Stack
 
