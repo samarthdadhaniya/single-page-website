@@ -64,7 +64,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ## :rocket: Live Demonstraion
 
-- [Preview Calculator](https://samarthdadhaniya.github.io/single-page-website/)
+- [Preview Website](https://samarthdadhaniya.github.io/single-page-website/)
 
 
 <br><br>
