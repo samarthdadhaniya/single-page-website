@@ -11,20 +11,20 @@
 
 <br>
 
-# :camera_flash: Screenshots
+## :camera_flash: Screenshots
 
 ![This is an Calculator](./assets/img/Final-Design.png)
 
 <br>
 
-# Tech Stack
+## Tech Stack
 
 - This Project is Build With Some Famous Tech And Tools Which Are Mentioned Below... :point_down: <br><br>
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,vscode,git,github,figma)](https://skillicons.dev) <br><br><br>
 
 
-# Run Locally
+## Run Locally
 
 
 - Open any code Editor you can work with and open a Terminal in that editor.
@@ -60,27 +60,24 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ```
 
-
 <br><br>
 
-# :rocket: Live Demonstraion
+## :rocket: Live Demonstraion
 
 - [Preview Calculator](https://samarthdadhaniya.github.io/single-page-website/)
 
 
 <br><br>
 
-# 🔗 Connect With Me
-<a href="https://www.instagram.com/"><img align="left" alt="codeSTACKr | Instagram" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" /></a>
-
-<a href="https://www.facebook.com/"><img align="left" alt="codeSTACKr | Facebook" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" /></a> 
-
-<a href="https://www.linkedin.com/in/samarth-dadhaniya-13bb04206/"><img align="left" alt="codeSTACKr | Linkdin" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /></a>
+## 🔗 Connect With Me
+[![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/samarth-dadhaniya/)
+[![My Skills](https://skillicons.dev/icons?i=github)](https://github.com/samarthdadhaniya)
+[![My Skills](https://skillicons.dev/icons?i=instagram)](https://www.instagram.com/)
+[![My Skills](https://skillicons.dev/icons?i=twitter)](https://www.twitter.com/)
 
 <br><br>
-<br>
 
-# :technologist: Devloper
+## :technologist: Devloper
 
 - [@ Samarth Dadhaniya](https://github.com/samarthdadhaniya/)
 
