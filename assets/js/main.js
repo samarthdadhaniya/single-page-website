@@ -78,8 +78,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 */
 function scrollUp() {
     const scrollUp = document.getElementById('scroll-up');
-
-    if (scrollY >= 100) {
+    
+    if (scrollY >= 500) {
         scrollUp.classList.add('show-scroll');
     }
     else {
@@ -87,3 +87,20 @@ function scrollUp() {
     }
 }
 window.addEventListener('scroll', scrollUp);
+
+
+/** 
+* @description  Overall, this below line of code allows users to easily scroll to the top 
+*               of the page with a single click on the "scroll-up" Button.
+*
+* @params  none
+*/
+const scrollUpButton = document.getElementById('scroll-up');
+scrollUpButton.addEventListener('click', ()=>{
+    document.body.scrollIntoView({   
+        /* here is smooth is passed to this method to make the 
+           scrolling smooth and animated.*/
+        behavior: "smooth"  
+      
+    });
+})
