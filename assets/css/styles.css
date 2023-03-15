@@ -497,13 +497,13 @@ button {
     display: inline-flex;
     padding: .3rem;
     border-radius: .25rem;
-    z-index: 10;
+    z-index: 1000;
     transition: .4s;
 }
 
 .scrollup_icon {
     font-size: 1.25rem;
-    color: #FFFFFF;
+    color: #FFFFFF; 
 }
 
 .show-scroll {
@@ -549,16 +549,6 @@ button {
 
     .nav {
         height: 4rem !important;
-    }
-
-    .newsletter_container {
-        display: grid;
-        grid-template-columns: .7fr;
-        justify-content: center;
-    }
-
-    .newsletter_description {
-        padding: 0 3rem;
     }
 }
 

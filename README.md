@@ -1,10 +1,13 @@
 # Halloween Website :jack_o_lantern:
 
-
-
 - Responsive Halloween Website Using HTML, CSS, and JavaScript
 - It has the best color contrast.
-- Smooth scrolling in each section
+- Smooth scrolling in each section.
+- In Here You Can navigating to a different page or location by Using two methods ::
+   1. To scroll to each section by Element ID.
+
+   2. preventDefault method of the event object (e).
+
 - Developed desktop screens and mobile screens as well.
 - Compatible with all mobile devices.
 - A Beautiful and simple user interface.
@@ -57,17 +60,17 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > remote: Compressing objects: 100% (8/8), done.
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
-
+> complete... done.
 ```
 
-<br><br>
+<br>
 
 ## :rocket: Live Demonstraion
 
 - [Preview Website](https://samarthdadhaniya.github.io/single-page-website/)
 
 
-<br><br>
+<br>
 
 ## 🔗 Connect With Me
 [![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/samarth-dadhaniya/)
@@ -75,7 +78,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 [![My Skills](https://skillicons.dev/icons?i=instagram)](https://www.instagram.com/)
 [![My Skills](https://skillicons.dev/icons?i=twitter)](https://www.twitter.com/)
 
-<br><br>
+<br>
 
 ## :technologist: Devloper
 
